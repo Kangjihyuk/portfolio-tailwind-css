@@ -630,6 +630,10 @@ video {
   z-index: 99999;
 }
 
+.z-\[999999\] {
+  z-index: 999999;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -706,10 +710,6 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
 }
 
 .block {
@@ -834,12 +834,12 @@ video {
   overflow: hidden;
 }
 
-.overflow-x-hidden {
-  overflow-x: hidden;
+.overflow-x-auto {
+  overflow-x: auto;
 }
 
-.overflow-y-hidden {
-  overflow-y: hidden;
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .scroll-smooth {
